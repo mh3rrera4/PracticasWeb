@@ -1,0 +1,35 @@
+/*Selector Universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Selector de Tipo*/
+body{
+    background-color: white;
+}
+ul{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    display: inline;
+    margin: 3em;
+    padding: 10px,30px;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*Selector ID*/
+#contenedor{
+    width: 1500px;
+    height: 6550px;
+    background-color: blueviolet;
+}
