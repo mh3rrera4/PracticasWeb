@@ -1,3 +1,12 @@
+/*Menu de Botones -Cocteles-*/
+#menuBtns{
+    display: flex;
+    justify-content: center;
+}
+.btnUp{
+    width: 380px;
+    margin: 0 15px;
+}
 /*Selector Universal*/
 *{
     margin: 0;
@@ -6,7 +15,7 @@
 
 /*Selector de Tipo*/
 body{
-    background-color: white;
+    background-color: rgb(177, 129, 75);
 }
 ul{
     text-align: center;
@@ -29,7 +38,13 @@ li a:hover{
 
 /*Selector ID*/
 #contenedor{
-    width: 1500px;
+    text-align: center;
+    width: 1230px;
     height: 6550px;
-    background-color: blueviolet;
+    background-color: beige;
+} 
+
+#ParrafoAcerca{
+    text-align:center;
+    text-decoration: none;
 }
