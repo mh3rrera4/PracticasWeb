@@ -13,14 +13,28 @@
     width: 240px;
     display: block;
 }
+
+/*Automoviles*/
+#bodyAutomoviles{
+    background-color: black;
+}
+#honda{
+    max-width: 400%;
+}
+#contenedorAutomoviles{
+    background-color: whitesmoke;
+    text-align: center;
+    width: 1230px;
+    height: 3150px;
+}
+
 /*Selector Universal*/
 *{
     margin: 0;
     padding: 0;
 }
-
 /*Selector de Tipo*/
-body{
+#bodyCocteles{
     background-color: rgb(177, 129, 75);
 }
 ul{
@@ -43,13 +57,12 @@ li a:hover{
 }
 
 /*Selector ID*/
-#contenedor{
+#contenedorCocteles{
     text-align: center;
     width: 1230px;
-    height: 6550px;
+    height: 6630px;
     background-color: beige;
 } 
-
 #ParrafoAcerca{
     text-align:center;
     text-decoration: none;
