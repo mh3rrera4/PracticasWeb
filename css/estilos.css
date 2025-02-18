@@ -16,7 +16,7 @@
 
 /*Automoviles*/
 #bodyAutomoviles{
-    background-color: black;
+    background-color: rgb(79, 33, 33);
 }
 #honda{
     max-width: 400%;
@@ -25,10 +25,70 @@
     background-color: whitesmoke;
     text-align: center;
     width: 1230px;
-    height: 3150px;
+    height: 4440px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 2px;
 }
 
 /*Selector Universal*/
+
+moderustic-uniquifier {
+    font-family: "Moderustic", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+#encabezado{
+    width: 90%;
+    height: auto;
+    background-color: beige;
+    margin: 1em;
+    text-align: center;
+    font-family: Moderustic;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #371e3d;
+}
+.imagen{
+    border-radius: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+.imagen:hover{
+    transform: translate(5px,10px);
+
+}
+#menu{
+    height:auto;
+    background-color: black;
+    margin: 1em;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px 0px rgb(79, 33, 33);
+    width: 900px;
+}
+hr{
+    border: none;
+    height: 4px;
+    background-color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
+    margin: 20px 0;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+
+}
+.img{
+    width: 400px;
+    border-radius: 20px;
+    justify-items: center;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -49,9 +109,10 @@ li{
 }
 li a{
     text-decoration: none;
+    font-size: 20px;
 }
 li a:hover{
-    color: red;
+    color: purple;
     text-decoration: none;
     font-size: 30px;
 }
