@@ -1,3 +1,81 @@
+/*-------------Index--------------*/
+#encabezadoIndex{
+    width: 70%;
+    height: auto;
+    background-color: white;
+    margin: 1em;
+    text-align: center;
+    font-family: Moderustic;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #ffffff;
+}
+#titlIndx{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 55px;
+    color: whitesmoke;
+    margin: 10px;
+}
+#nameIndx{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 38px;    
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+#schlIndx{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+#imgDev{
+    width: 350px;
+    border-radius: 70px;
+    justify-items: center;
+}
+#menuIndex{
+    height: auto;
+    background-color: black;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgb(177, 173, 173);
+    width: 1000px;
+}
+#btnsIndx li{
+    display: inline;
+    margin: 3em;
+    padding: 10px,30px;
+}
+#btnsIndx li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+}
+#btnsIndx li a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: 40px
+}
+#bodyIndex{
+    background-color: rgb(75, 29, 91);
+}
+#contenedorIndex{
+    background-color: rgb(54, 79, 133);
+    text-align: center;
+    width: 1300px;
+    height: 1205px;
+    margin: 30px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 15px 7px;
+    
+}
+/*----------------------------------------------*/
 /*-------------Cocteles--------------*/
 #encabezadoCocteles{
     width: 60%;
@@ -19,7 +97,7 @@
     background-color: beige;
     text-align: center;
     width: 1230px;
-    height: 6840px;
+    height: 6740px;
     margin: 30px;
     border-radius: 20px;
     box-shadow: 2px 2px 8px 2px;
@@ -34,17 +112,25 @@
     display: block;
     margin: 5px 50px;
 }
+#menuBtns a img:hover{
+    width: 300px;
+}
 .btnUp{
     width: 240px;
     display: block; 
 }
-.menuCocteles{
+.menuCocteles{ /*No hace nada aún*/
     height:auto;
     background-color: black;
     margin: 1em;
     border-radius: 10px;
     box-shadow: 0px 4px 8px 0px rgb(79, 33, 33);
     width: 9000px;
+}
+.imgCoct{
+    width: 290px;
+    border-radius: 20px;
+    justify-items: center;
 }
 /*----------------------------------------------*/
 /*-------------Automoviles-------------*/
@@ -71,7 +157,7 @@
     background-color: whitesmoke;
     text-align: center;
     width: 1230px;
-    height: 4410px;
+    height: 4440px;
     margin: 30px;
     border-radius: 20px;
     box-shadow: 2px 2px 8px 2px;
@@ -97,7 +183,7 @@ moderustic-uniquifier {
     transition: transform 0.2s ease-in-out;
 }
 .imagen:hover{
-    transform: translate(5px,10px);
+    transform: translate(0px,-10px);
 
 }
 hr{
@@ -140,6 +226,7 @@ li{
     display: inline;
     margin: 3em;
     padding: 10px,30px;
+    text-decoration: none;
 }
 li a{
     text-decoration: none;
