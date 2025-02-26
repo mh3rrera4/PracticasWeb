@@ -1,12 +1,11 @@
 /*-------------Index--------------*/
 #encabezadoIndex{
-    width: 99%;
+    width: 100%;
     height: auto;
     background-color: white;
-    margin: 1em;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    font-family: Moderustic;
-    font-size: 18px;
     box-shadow: 0px 2px 6px 0px #ffffff;
 }
 #imgEncabezado{
@@ -35,94 +34,52 @@
     color: whitesmoke;
     margin-top: 20px;
 }
-#ftDev{
+.ftDev{
     text-align: center;
 }
-#ftDev img{
+.ftDev img{
     width: 350px;
     border-radius: 70px;
-}
-.contenedorFlexIndx{
-    display: flex;
-    width: auto;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgb(0, 0, 0);
-    padding: 10px; 
-}
-#menuIndex{
-    height: auto;
-    background-color: black;
-    margin: 1em;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px 0px rgb(177, 173, 173);
-    width: 1000px;
-}
-#btnsIndx li{
-    display: inline;
-    margin: 3em;
-    padding: 10px,30px;
-}
-#btnsIndx li a{
-    text-decoration: none;
-    font-size: 25px;
-    color: whitesmoke;
-}
-#btnsIndx li a:hover{
-    color: whitesmoke;
-    text-decoration: underline;
-    font-size: 40px
 }
 #bodyIndex{
     background-color: rgb(75, 29, 91);
 }
-#contenedorIndex{
-    background-color: rgb(54, 79, 133);
-    text-align: center;
-    width: 1290px;
-    height: 1205px;
-    margin: 30px;
-    border-radius: 8px;
-    box-shadow: 2px 4px 15px 7px;
-    
-}
-/*Cloude*/
-.sticky-nav {
-    position: sticky;
-    top: 0;
+.sticky-nav{
+    position: sticky; /*-Pa q permanesca visible*/
+    top: 0; /*-Dist del borde de arriba(top)*/
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-    z-index: 100;
-    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.9); /*-El .9 al final=90% opacidad*/
+    z-index: 100; /*La profundidad visual d los elemntoos en la pagina*/
+    padding: 15px 0; /*-Relleno de 10px arriba/abajo y 0 izq/derch*/
 }
 
-.nav-inner {
-    max-width: 1200px;
-    margin: 5 auto;
-}
-
-.sticky-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.nav-inner{     /*-Literal pa lo dentro del nav (inner)*/
+    max-width: 1200px; /*-Max a 1200px pa q no se mame en pantallas grandes*/
+    margin: 0 auto; /*-Margen sperior/infer a 0*/
+}                       /*E izq/derch en auto: p/los margenes horizontales centra el elemento cuando tiene el ancho definido.*/
+                         /* Forma +moderna de centrar en vez del mndigo <center>*/
+.sticky-nav ul {               
+    display: flex;  /*-Lo establece 'flexbox' pa manejar +facil a sus hijos <li>*/
+    justify-content: center;  /*-Centra los elementos hijos en el centro d la barra*/
+    list-style: none; /*-Quita todo lo puesto por defecto*/
+    margin: 0; /*-Manda a csm al margen por defecto*/
+    padding: 0; /*-Manda a csm al relleno interior por defecto*/
 }
 
 .sticky-nav li {
-    margin: 0 1.5em;
-}
+    margin: 0 3em; /*-Establece 0 de margen sperior/inf y 1.5em pa izq/derch,*/
+}            /*'em' es buena practica pq cambia proporcionalmente si el usuario cambia el tamaño de fuente base*/
 
 .sticky-nav a {
     color: whitesmoke;
-    text-decoration: none;
-    font-size: 25px;
+    text-decoration: none; /*-Elimina lo predeterminado*/
+    font-size: 30px; 
 }
 
 .sticky-nav a:hover {
     color: whitesmoke;
-    text-decoration: underline;
-
+    text-decoration: underline; /*-Lo subraya bien chido*/
+    font-size: 35px;
 }
 /*----------------------------------------------*/
 /*-------------Cocteles--------------*/
@@ -263,6 +220,11 @@ hr{
 #pAcerca{
     text-align:center;
     text-decoration: none;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /*----------------------------------------------*/
 /*-------------Selector de Tipo-------------*/
