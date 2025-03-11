@@ -1,4 +1,4 @@
-/*-------------Index--------------*/
+/*-------------INDEX--------------*/
 #encabezadoIndex{
     width: 100%;
     height: auto;
@@ -144,7 +144,7 @@
     width: 90%;
     height: auto;
     background-color: rgb(247, 247, 247);
-    margin: 1em;
+    margin: 0 auto;
     text-align: center;
     font-family: Moderustic;
     font-size: 18px;
@@ -152,6 +152,14 @@
     padding-top: 15px;
     border-radius: 10px;
     box-shadow: 0px 2px 6px 0px #371e3d;
+}
+#menuAutomoviles{
+    height:auto;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px 0px rgb(79, 33, 33);
+    width: 900px;
 }
 #bodyAutomoviles{
     background-color: rgb(79, 33, 33);
@@ -162,19 +170,11 @@
 #contenedorAutomoviles{
     background-color: rgb(193, 193, 102);
     text-align: center;
-    width: 1230px;
-    height: 4440px;
+    width: 1100px;
+    height: auto;
     margin: 30px;
     border-radius: 20px;
     box-shadow: 2px 2px 8px 2px;
-}
-#menuAutomoviles{
-    height:auto;
-    background-color: black;
-    margin: 1em;
-    border-radius: 4px;
-    box-shadow: 0px 4px 8px 0px rgb(79, 33, 33);
-    width: 900px;
 }
 /*----------------------------------------------*/
 /*-------------Selectores Universales-------------*/
@@ -225,6 +225,10 @@ footer {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #222;
+    color: whitesmoke;
+    padding: 20px 10px;
+    border-radius: 18px;
 }
 /*----------------------------------------------*/
 /*-------------Selector de Tipo-------------*/
@@ -274,6 +278,28 @@ li a:hover{
     background-color: black;
     color: white;
 }
+/*
+.itemFlexAutomoviles{
+    width: flex;
+    font-size: 25px;
+    padding: flex;
+}
+.itemFlexAutomoviles img{
+    width: 360px;
+}
+
+.flexboxAutomoviles{
+    display: flex;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border: 2px solid black;
+}
+*/
 .contenedorFlex02{
     display: flex;
     width: auto;
@@ -294,3 +320,45 @@ li a:hover{
     border: 2px solid black;  
 }
 /*----------------------------------------------*/
+/*-------------NUEVO-------------*/
+.boton{
+    border: none;
+    outline: 0;
+    display: inline inline-block;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.boton:hover{
+    background-color: rgb(79, 33, 33);
+    color: whitesmoke;
+    transform: scale(1,1);
+    transition: all 0.3s ease;
+}
+.social-icons{
+    margin-bottom: 10px;
+    
+}
+.icon{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: whitesmoke;
+    transition: transform 0.3s color 0.3s;       
+}
+.icon:hover{
+    transform: scale(1.1,1.1) ;
+}
+.x:hover{
+    color: black;
+}
+.instagram:hover{
+    color: rgb(198, 5, 117);
+}
+.youtube:hover{
+    color: #FF0000;
+}
