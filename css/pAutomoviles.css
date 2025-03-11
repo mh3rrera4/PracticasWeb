@@ -1,0 +1,57 @@
+/*--------Estilos de la pagina 'Automoviles'------------*/
+#encabezadoAutomoviles{
+    width: 90%;
+    height: auto;
+    background-color: rgb(247, 247, 247);
+    margin: 0 auto;
+    text-align: center;
+    font-family: Moderustic;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #371e3d;
+}
+#menuAutomoviles{
+    height:auto;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px 0px rgb(79, 33, 33);
+    width: 900px;
+}
+#menuAutomoviles ul{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#menuAutomoviles ul li{
+    display: inline;
+    margin: 3em;
+    padding: 10px,30px;
+    text-decoration: none;
+}
+#menuAutomoviles ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+#menuAutomoviles ul li a:hover{
+    color: purple;
+    text-decoration: none;
+    font-size: 30px;
+}
+#bodyAutomoviles{
+    background-color: rgb(79, 33, 33);
+}
+#honda{
+    max-width: 400%;
+}
+#contenedorAutomoviles{
+    background-color: rgb(193, 193, 102);
+    text-align: center;
+    width: 1100px;
+    height: auto;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 2px;
+}

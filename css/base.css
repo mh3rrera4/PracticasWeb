@@ -1,0 +1,46 @@
+/*--------Estilos universales y reseteo------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr{
+    border: none;
+    height: 4px;
+    background-color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
+    margin: 20px 0;
+}
+moderustic-uniquifier {
+    font-family: "Moderustic", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.imagen{
+    border-radius: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+.imagen:hover{
+    transform: translate(0px,-10px);
+
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+
+}
+.img{
+    width: 400px;
+    border-radius: 20px;
+    justify-items: center;
+}
+#pAcerca{
+    text-align:center;
+    text-decoration: none;
+}
+

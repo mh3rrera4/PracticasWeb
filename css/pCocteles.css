@@ -1,0 +1,48 @@
+/*--------Estilos de la pagina 'Cócteles'------------*/
+#encabezadoCocteles{
+    width: 60%;
+    height: auto;
+    background-color: white;
+    margin: 1em;
+    text-align: center;
+    font-family: Moderustic;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #371e3d;
+}
+#bodyCocteles{
+    background-color: rgb(177, 129, 75);
+}
+#contenedorCocteles{
+    background-color: beige;
+    text-align: center;
+    width: 1230px;
+    height: 6740px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 2px;
+}
+#menuBtns{
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    margin: 5px 50px;
+}
+#menuBtns a{
+    display: block;
+    margin: 5px 50px;
+}
+#menuBtns a img:hover{
+    width: 300px;
+}
+.btnUp{
+    width: 240px;
+    display: block; 
+}
+.imgCoct{
+    width: 290px;
+    border-radius: 20px;
+    justify-items: center;
+}
