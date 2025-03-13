@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/layout.css">
+</head>
+<body>
+    <header>
+        <h2 class="titulo">Contactos</h2>
+
+    </header>
+    <section>
+        <form action="#" method="post">
+            <label for="Nombre">Nombre:</label>
+                <input type="text" id="nombre" name="Nombre" maxlength="50" 
+            placeholder="Escribe aquí tu nombre"> 
+            <br><br>
+            <label for="Edad">Edad:</label>
+                <input type="Edad" id="edad" maxlength="2" required>
+            <br><br>
+            <label for="EstadoCivil">Estado Civil:</label>
+            <select name="Estado Civil" id="estadoCivil">Estado Civil:
+                <option value="Soltero">Soltero</option>
+                <option value="Casado">Casado</option>
+                <option value="Divorciado">Divorciado</option>
+                <option value="Viuda/o">Viudo</option>
+            </select>
+            <br><br>
+            <label for="Sexo">Sexo:</label> <br>
+                <label for="Masculino">Masculino:</label>
+                    <input type="radio" name="idSexo" id="idSexo"><br>
+                <label for="Femenino">Femenino:</label>
+                    <input type="radio" name="idSexo" id="idsexo"><br>
+                <label for="Prefiero No Responder">Prefiero No Responder:</label>
+                    <input type="radio" name="idSexo" id="idsexo"><br>
+                <label for="Todos los dias">Todos los dias:</label>
+                    <input type="radio" name="idSexo" id="idsexo"><br>
+            <br><br>
+            <label for="Idiomas">Idiomas</label><br>
+                <label for="Español">Español:</label>
+                    <input type="checkbox" name="Español" id="idIdiomas">
+                <label for="Ingles">Ingles:</label>
+                    <input type="checkbox" name="Ingles" id="idIdiomas">
+                <label for="Chino">Chino:</label>
+                    <input type="checkbox" name="Chino" id="idIdiomas">
+            <label for="Fecha Nac">Fecha de Nacimiento:</label>
+                <input type="date" name="Fecha Nac" id="fechaNac">
+            <br><br>
+            <label for="Correo Electronico">Correo Electrónico:</label>
+                <input type="email" name="email" id="email"><br>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="5" 
+            placeholder="Escribe tus comentarios:"></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpíar</button>
+        </form>
+    </section>
+</body>
+</html>
