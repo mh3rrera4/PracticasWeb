@@ -1,48 +1,60 @@
 *{
-    margin: 10px;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color: burlywood;
+    background-color: rgb(215, 224, 87);
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
-    text-align: center;
-    padding: 20px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0;
 }
 .card{
-    display: flex;
+    display: block;
     flex-direction: column;
-    background-position: center;
+    justify-content: start;
     align-items: center;
-    background-color: yellow;
-    justify-content: center;
-    padding: 20px;
-    margin-bottom: 20px;
+    background-color: rgb(93, 151, 143);
+    border-radius: 8px;
     text-align: start;
-    width: 60%;
-    height: black;
+    width: auto;
+    height: auto;
     color: black;
-    margin: 0 auto;
+    margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    padding: 10px;
 }
-button{
+.card input, 
+.card select, 
+.card label, 
+.card textarea,
+.card div {
+    margin: 7px 0; /* Margen vertical solo dentro de la tarjeta */
+}
+.btndefecto{
     width: 100%;
     padding: 10px;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
-    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 226, 60);
+    color: black;
+    margin-top: 10px; /* Margen superior para separarlo del contenido anterior */
 }
-button:hover{
-    background-color: #0056b3;
+.btndefecto:hover{
+    background-color: rgb(192, 206, 0);
 }
-
 .encabezado{
+    margin: 0;
+    width: 100%;
+    padding: 2px 0;
     text-align: center;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #007BFF;
-    color: white;
-    width: 70%;
+    background-color: whitesmoke;
+}
+#comentarios{
+    text-align:center
 }

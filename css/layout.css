@@ -1,5 +1,5 @@
 /*--------Estilos para navegación y estructura común------------*/
-.sticky-nav{
+.sticky-nav-Index{
     position: sticky; /*-Pa q permanesca visible*/
     top: 0; /*-Dist del borde de arriba(top)*/
     width: 100%;
@@ -8,12 +8,12 @@
     padding: 15px 0; /*-Relleno de 10px arriba/abajo y 0 izq/derch*/
 }
 
-.nav-inner{     /*-Literal pa lo dentro del nav (inner)*/
+.nav-inside-Index{     /*-Literal pa lo dentro del nav*/
     max-width: 1200px; /*-Max a 1200px pa q no se mame en pantallas grandes*/
     margin: 0 auto; /*-Margen sperior/infer a 0*/
 }                       /*E izq/derch en auto: p/los margenes horizontales centra el elemento cuando tiene el ancho definido.*/
                          /* Forma +moderna de centrar en vez del mndigo <center>*/
-.sticky-nav ul {               
+.sticky-nav-Index ul {               
     display: flex;  /*-Lo establece 'flexbox' pa manejar +facil a sus hijos <li>*/
     justify-content: center;  /*-Centra los elementos hijos en el centro d la barra*/
     list-style: none; /*-Quita todo lo puesto por defecto*/
@@ -21,21 +21,22 @@
     padding: 0; /*-Manda a csm al relleno interior por defecto*/
 }
 
-.sticky-nav li {
+.sticky-nav-Index li {
     margin: 0 3em; /*-Establece 0 de margen sperior/inf y 1.5em pa izq/derch,*/
-}            /*'em' es buena practica pq cambia proporcionalmente si el usuario cambia el tamaño de fuente base*/
-
-.sticky-nav a {
+}
+            /*'em' es buena practica pq cambia proporcionalmente si el usuario cambia el tamaño de fuente base*/
+.sticky-nav-Index a {
     color: whitesmoke;
     text-decoration: none; /*-Elimina lo predeterminado*/
     font-size: 30px; 
 }
 
-.sticky-nav a:hover {
+.sticky-nav-Index a:hover {
     color: whitesmoke;
     text-decoration: underline; /*-Lo subraya bien chido*/
     font-size: 35px;
 }
+
 
 footer {
     text-align: center;
@@ -45,4 +46,25 @@ footer {
     color: whitesmoke;
     padding: 20px 10px;
     border-radius: 18px;
+}
+
+
+.btnMike{   
+    padding: 5px 13px;
+    margin: 8px auto;
+    width: auto;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: black;
+    border-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: none;
+}
+.btnMike a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.btnMike:hover{
+    opacity: 0.75;
 }

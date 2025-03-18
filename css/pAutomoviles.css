@@ -21,6 +21,7 @@
     width: 900px;
 }
 #menuAutomoviles ul{
+    text-decoration: none;
     text-align: center;
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -32,6 +33,7 @@
     text-decoration: none;
 }
 #menuAutomoviles ul li a{
+    color: whitesmoke;
     text-decoration: none;
     font-size: 20px;
 }
