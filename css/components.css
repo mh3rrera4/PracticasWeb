@@ -18,13 +18,12 @@
     transition: all 0.3s ease;
 }
 .social-icons{
-    margin-bottom: 10px;
-    
+    margin-top: 5px;    
 }
 .icon{
     display: inline-block;
-    margin: 0 10px;
-    font-size: 24px;
+    margin: 0 25px;
+    font-size: 25px;
     color: whitesmoke;
     transition: transform 0.3s color 0.3s;       
 }
