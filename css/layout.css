@@ -48,7 +48,7 @@ footer {
 }
 
 
-.btnMike{   
+.btnInicio{   
     width: auto;
     border-radius: 30px;
     border: 2px solid black;
@@ -57,11 +57,11 @@ footer {
     border-color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-shadow: none;
-}
-.btnMike a{
+    margin-top: 12px;
+    padding: 3px 15px;
     text-decoration: none;
     color: whitesmoke;
 }
-.btnMike:hover{
+.btnInicio:hover{
     opacity: 0.75;
 }
