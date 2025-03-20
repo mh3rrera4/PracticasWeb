@@ -25,7 +25,7 @@
     margin: 0 25px;
     font-size: 25px;
     color: whitesmoke;
-    transition: transform 0.3s color 0.3s;       
+    transition: transform 0.3s, color 0.3s;       
 }
 .icon:hover{
     transform: scale(1.1,1.1) ;
