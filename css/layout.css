@@ -1,4 +1,25 @@
 /*--------Estilos para navegación y estructura común------------*/
+.flexboxProd{
+    display: flex;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.itemProd{
+    width: flex;
+    font-size: 10px;
+    padding: flex;
+    margin: 0 38px;
+}
+.itemProd img{
+    width: 280px;
+}
+
+
 .sticky-nav-Index{
     position: sticky; /*-Pa q permanesca visible*/
     top: 0; /*-Dist del borde de arriba(top)*/
@@ -7,7 +28,6 @@
     z-index: 100; /*La profundidad visual d los elemntoos en la pagina*/
     padding: 15px 0; /*-Relleno de 10px arriba/abajo y 0 izq/derch*/
 }
-
 .nav-inside-Index{     /*-Literal pa lo dentro del nav*/
     max-width: 1200px; /*-Max a 1200px pa q no se mame en pantallas grandes*/
     margin: 0 auto; /*-Margen sperior/infer a 0*/
@@ -20,7 +40,6 @@
     margin: 0; /*-Manda a csm al margen por defecto*/
     padding: 0; /*-Manda a csm al relleno interior por defecto*/
 }
-
 .sticky-nav-Index li {
     margin: 0 3em; /*-Establece 0 de margen sperior/inf y 1.5em pa izq/derch,*/
 }
@@ -30,7 +49,6 @@
     text-decoration: none; /*-Elimina lo predeterminado*/
     font-size: 30px; 
 }
-
 .sticky-nav-Index a:hover {
     color: whitesmoke;
     text-decoration: underline; /*-Lo subraya bien chido*/
@@ -66,6 +84,7 @@ footer {
     opacity: 0.75;
 }
 
+
 .btnArriba{
     font-size: 13px; 
     border-radius: 30px;
@@ -81,4 +100,24 @@ footer {
 }
 .btnArriba:hover{
     opacity: 0.75;
+}
+
+
+
+.card-contenido {
+    padding: 15px;
+    background-color: #ffffff;
+}
+.vermas-btn {
+    background-color: #4473FB;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.vermas-btn:hover {
+    background-color: #3960d8;
 }

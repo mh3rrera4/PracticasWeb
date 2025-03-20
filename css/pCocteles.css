@@ -1,9 +1,9 @@
 /*--------Estilos de la pagina 'Cócteles'------------*/
 #encabezadoCocteles{
-    width: 60%;
+    width: 90%;
     height: auto;
     background-color: white;
-    margin: 1em;
+    margin: 0 auto;
     text-align: center;
     font-family: Moderustic;
     font-size: 18px;
@@ -16,19 +16,23 @@
     background-color: rgb(177, 129, 75);
 }
 #contenedorCocteles{
+    text-align: center;
     background-color: beige;
     text-align: center;
-    width: 1230px;
-    height: 6740px;
-    margin: 30px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 8px 2px;
+    width: 83%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 1);
 }
+
+
 #menuBtns{
     display: flex;
     justify-content: center;
     width: 240px;
-    margin: 5px 50px;
+    margin: 0 auto;
+    
 }
 #menuBtns a{
     display: block;
@@ -40,9 +44,38 @@
 .btnUp{
     width: 240px;
     display: block; 
+    margin-top: 8px;
 }
 .imgCoct{
     width: 290px;
     border-radius: 20px;
     justify-items: center;
+}
+
+.coc-card{
+    width: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.coc-img{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 170, 110);;
+    overflow: hidden;
+}
+.coc-img img{
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.coc-nombre{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 3px;
+    margin-bottom: 12px;
+    color: #333;
 }

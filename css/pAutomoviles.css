@@ -63,27 +63,6 @@
 }
 
 
-.flexboxAutomoviles{
-    display: flex;
-    width: auto;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    flex-wrap:wrap;
-    flex-direction: row-reverse;
-    justify-content: center;
-}
-.itemFlexAutomoviles{
-    width: flex;
-    font-size: 10px;
-    padding: flex;
-    margin: 0 38px;
-}
-.itemFlexAutomoviles img{
-    width: 280px;
-}
-
-
 .car-card {
     width: 280px;
     border-radius: 10px;
@@ -102,11 +81,6 @@
     margin-top: 25px;
     object-fit: cover;
 }
-
-.card-contenido {
-    padding: 15px;
-    background-color: #ffffff;
-}
 .car-nombre {
     font-size: 18px;
     font-weight: 600;
@@ -124,17 +98,4 @@
     font-weight: 500;
     color: #333;
     margin-bottom: 15px;
-}
-.vermas-btn {
-    background-color: #4473FB;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 8px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-.vermas-btn:hover {
-    background-color: #3960d8;
 }
