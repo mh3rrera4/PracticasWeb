@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(201, 201, 201);
+}
+
+#nav-grid-Evl{
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto); /*3 columnas de igual ancho ("1fr"=1 fraccion de espacio disponible)*/
+    grid-template-rows: repeat(2, auto); /*2 filas, y el auto pa q se ajuste (como en el margin)*/
+    gap: 15px 100px; /*10px entre filas, 20px entre columnas*/
+}
+#nav-grid-Evl a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 10px;
+}   
+#nav-grid-Evl a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+#ctm{
+    text-align: center;
+    margin-top: 12px;
+}
+
+
+.tituloEvl{
+    text-align: start;
+}
