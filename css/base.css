@@ -39,7 +39,11 @@ moderustic-uniquifier {
     border-radius: 20px;
     justify-items: center;
 }
-#pAcerca{
+.pAcerca{
     text-align:center;
     text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 60px;
 }
