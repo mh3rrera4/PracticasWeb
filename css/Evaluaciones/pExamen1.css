@@ -21,7 +21,7 @@ footer{
 
 
 .contChngon{
-    margin: 0 auto;
+    margin: 15px auto;
     background-color: #A18262;
     width: 83%;
     height: auto;
@@ -33,7 +33,7 @@ footer{
     height: 15%;
     background-color: #3a251c;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
     margin: 0 auto;
 }
 .titulo{
