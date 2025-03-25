@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1ecea;
+}
+#body{
+    margin: 5px auto;
+    width: 900px;
+    height: 1000px;
+}
+
+.contChngon{
+    margin: 0 auto;
+    background-color:#9a7c70;
+    width: 83%;
+    height: auto;
+    text-align: center;
+}
+
+.encabezado{
+    width: 98%;
+    height: 15%;
+    background-color: #3a251c;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+}
+.titulo{
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    font-size: 37px;
+    color: white;
+    margin: 0 auto;
+}
+.nombreAl{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: white;
+    margin: 15px 0;
+}
+
+
+.nav-exm{
+    height: 5%;
+    background-color: #b46424;
+    margin: 0 auto;
+    width: 98%;
+}
+.nav-exm ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-exm li a{
+    list-style: none;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 5px;
+}
+.nav-exm li a:hover{
+    text-decoration: underline;
+}
+
+
+
+.contenedor{
+    display: flex;
+    background-color: #b58c7c;
+    margin: 0 auto;
+    width: 98%;
+    justify-content: space-between;
+    gap: 20px;
+}
+.cuadro {
+    background-color: #3c2f2f; /* Color café */
+    color: white;
+    padding: 20px;
+    flex: 1; /* Para que ambos ocupen el mismo ancho */
+    max-width: 48%; /* Para que no sean demasiado anchos */
+}
+.ttl-texto{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.texto{
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
