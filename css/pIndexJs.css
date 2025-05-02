@@ -1,6 +1,6 @@
 /* Ids*/
 #bodyIndexJavascript{
-    background-color: rgb(185, 185, 42);
+    background-color: rgb(228, 228, 94);
 }
 #nt{
     margin-bottom: 12px;
@@ -38,6 +38,9 @@
 }
 
 /*Muro*/
+.correcion{
+    margin: 0 10px;
+}
 .spaceAbajo{
     margin-bottom: 14px;
 }
@@ -52,11 +55,7 @@
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 .idxJsIntroducción{
-    color: rgb(121, 58, 58);
+    color: rgb(170, 23, 23);
     font-size: 25px;
     font-weight: bold;
-}
-.idxJsIntroducciónTexto{
-    color: rgb(255, 255, 255);
-    font-size: 25px;
 }
