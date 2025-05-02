@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 02</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/contactos.css">
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <div id="encabezado">
+                <h2>Practica 02 - Javascript</h2>
+            </div>
+        </header>
+        <section class="card">
+            <img src="/IMG/operacionesBasicas.jpg" alt="">
+            <select name="operaciones" id="operaciones">
+                <option value="1">Suma</option>
+                <option value="2">Resta</option>
+                <option value="3">Multiplicación</option>
+                <option value="4">División</option>
+            </select>
+            <p id="resultado" class="descripcion">
+                $$
+            </p>
+            <input type="number" name="txtNum1" id="txtNum1"> <br>
+            <label id="lblOperador" for="operacionesBasicas">+</label><br>
+            <input type="number" name="txtNum2" id="txtNum2"><br>
+            <button id="btnCalcular">Realizar Operación</button>
+        </section>
+    </div>
+</body>
+<script src="/JS/p02.js"></script>
+</html>
