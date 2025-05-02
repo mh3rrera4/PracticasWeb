@@ -79,7 +79,10 @@ footer {
 .btnInicio:hover{
     opacity: 0.75;
 }
-
+.ctm{
+    text-align: center;
+    margin-top: 12px;
+}
 
 .btnArriba{
     font-size: 13px; 
@@ -98,7 +101,22 @@ footer {
     opacity: 0.75;
 }
 
-
+.contFlexMuro{
+    z-index: 100;
+    display: flex;
+    width: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    border-color: black;
+    border: solid black 1px;;
+    
+}
+.itemFlexMuro{
+    width: 50%;
+    padding: flex;
+    margin: 0 auto;
+}
 
 .card-contenido {
     padding: 15px;

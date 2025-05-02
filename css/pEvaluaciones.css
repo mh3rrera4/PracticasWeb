@@ -28,28 +28,7 @@ body{
     color: whitesmoke;
     text-decoration: underline;
 }
-#ctm{
-    text-align: center;
-    margin-top: 12px;
-}
 
-
-.contFlex{
-    z-index: 100;
-    display: flex;
-    width: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-    border-color: black;
-    border: solid black 1px;;
-    
-}
-.itemFlex{
-    width: 50%;
-    padding: flex;
-    margin: 0 auto;
-}
 .contImgEvl{
     display: flex;
     justify-content: center;

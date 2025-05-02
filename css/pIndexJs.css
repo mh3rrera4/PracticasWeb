@@ -1,0 +1,62 @@
+/* Ids*/
+#bodyIndexJavascript{
+    background-color: rgb(185, 185, 42);
+}
+#nt{
+    margin-bottom: 12px;
+}
+#centroTacos{
+    width: 100%;
+    text-align: center;
+}
+
+
+/*Menu Sticky*/
+.nav-inner{
+    max-width: 1200px; /*-Max a 1200px pa q no se mame en pantallas grandes*/
+    margin: 0 auto;
+}                                      
+.sticky-nav ul{
+    display: flex;  /*-Lo establece 'flexbox' pa manejar +facil a sus hijos <li>*/
+    justify-content: center;  /*-Centra los elementos hijos en el centro d la barra*/
+    list-style: none; /*-Quita todo lo puesto por defecto*/
+    margin: 0; /*-Manda a csm al margen por defecto*/
+    padding: 0; /*-Manda a csm al relleno interior por defecto*/
+}
+.sticky-nav li{
+    margin: 0 3em;
+}
+.sticky-nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+}
+.sticky-nav a:hover{
+    color: whitesmoke;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+/*Muro*/
+.spaceAbajo{
+    margin-bottom: 14px;
+}
+.idxJsNumero{
+    color: rgb(61, 60, 60);
+    font-size: 20px;
+    margin-top: 10px;
+}
+.idxJsTitulo{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.idxJsIntroducción{
+    color: rgb(121, 58, 58);
+    font-size: 25px;
+    font-weight: bold;
+}
+.idxJsIntroducciónTexto{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
