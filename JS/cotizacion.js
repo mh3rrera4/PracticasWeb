@@ -6,16 +6,8 @@ let precio = 0;
 let plazos = 0;
 
 /**Metodos de Comportamiento */
-function calcularPagoInicial(){
-    let pagoInicial = precio * (porPagoInicial/100);
-    return pagoInicial;
-}
+const calcularPagoInicial = (pagoInicial = precio * (porPagoInicial/100)) => pagoInicial;
 
-function calcularTotalFin(){
-    let totalFin = precio - calcularPagoInicial();
-    return totalFin;
-}
+const calcularTotalFin = (totalFin = precio - calcularPagoInicial()) => totalFin;
 
-function calcularPagoMensual(){
-    let pagoMensual = calcularTotalFin()/plazos;
-}
+const calcularPagoMensual = (pagoMensual = calcularTotalFin()/plazos) => pagoMensual;
