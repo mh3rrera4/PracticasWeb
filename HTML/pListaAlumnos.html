@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/tabla.css">
+</head>
+<body>
+    <center>
+        <header>
+            <h2>Lista de Alumnos</h2>
+        </header>
+        <section>
+            <label for="">ID</label> <input type="number" id="id" placeholder="1234...">
+            <label for="">Nombre</label> <input type="text" id="nombre" placeholder="Nombre">
+            <label for="">Escuela</label> <input type="text" id="escuela" placeholder="Escuela">
+            <button id="btnAgregar">Agregar</button>
+            <hr>
+            
+            <table id="tabla">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Escuela</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaBody">
+                    <!--Se genera de manera continua -->
+                </tbody>
+            </table>
+        </section>
+    </center>
+</body>
+</html>
