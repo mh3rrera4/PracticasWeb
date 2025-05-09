@@ -39,3 +39,22 @@
 .youtube:hover{
     color: #FF0000;
 }
+
+.lblMS{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+.txtMS{
+    padding: 5px;
+    font-size: 15px;
+}
+.rdMS{
+    font-size: 18px;
+}
+.lblRes{
+    font-size: 20px;
+}
+.txtRes{
+    padding: 3px;
+    font-size: 18px;
+}

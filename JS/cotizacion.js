@@ -61,10 +61,6 @@ const realizarCalculos = () => {
     const totalFinanciar = calcularTotalFin();
     const pagoMensual = calcularPagoMensual();
 
-    alert(pagoInicial);
-    alert(totalFinanciar);
-    alert(pagoMensual);
-
     resPagoInicial.value = pagoInicial.toFixed(2);
     resTotalFinanciar.value = totalFinanciar.toFixed(2);
     resPagoMensual.value = pagoMensual.toFixed(2);

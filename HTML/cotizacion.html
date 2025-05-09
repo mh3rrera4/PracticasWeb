@@ -18,40 +18,40 @@
         </div>
         <a href="/index.html" class="btnInicio">Inicio</a>
         <section class="card">
-            <label for="numCotizacion">Numero de Cotizacion:</label>
-                <input type="text" id="numCotizacion" name="Numero" maxlength="10">
+            <label class="lblMS" for="numCotizacion">Numero de Cotizacion:</label>
+                <input class="txtMS" type="text" id="numCotizacion" name="Numero" maxlength="10">
             <br><br>
-            <label for="descripcion">Descripcion:</label>
-                <input type="text" id="descripcion" name="Nombre" maxlength="50">
+            <label class="lblMS" for="descripcion">Descripcion:</label>
+                <input class="txtMS" type="text" id="descripcion" name="Nombre" maxlength="50">
             <br><br>
-            <label for="porPagoInicial">Porcentaje   del Pago Inicial:</label>
-                <input type="number" id="porPagoInicial" maxlength="3">
+            <label class="lblMS" for="porPagoInicial">Porcentaje   del Pago Inicial:</label>
+                <input class="txtMS" type="number" id="porPagoInicial" maxlength="3">
             <br><br>
-            <label for="precio">Precio:</label>
-                <input type="number" id="Precio" name="Precio" maxlength="10">
+            <label class="lblMS"for="precio">Precio:</label>
+                <input class="txtMS" type="number" id="Precio" name="Precio" maxlength="10">
             <br><br><br>
-            <label for="plazos">Plazos:</label><br>
+            <label class="lblMS" for="plazos">Plazos:</label><br>
                 <input type="radio" name="idPlazos" id="plazos12" value="12">
-                    <label for="plazos12">12 meses</label><br>
+                    <label class="rdMS" for="plazos12">12 meses</label><br>
                 <input type="radio" name="idPlazos" id="plazos24" value="24">
-                    <label for="plazos24">24 meses</label><br>
+                    <label class="rdMS" for="plazos24">24 meses</label><br>
                 <input type="radio" name="idPlazos" id="plazos36" value="36">
-                    <label for="plazos36">36 meses</label><br>
+                    <label class="rdMS" for="plazos36">36 meses</label><br>
                 <input type="radio" name="idPlazos" id="plazos48" value="48">
-                    <label for="plazos48">48 meses</label><br>
+                    <label class="rdMS" for="plazos48">48 meses</label><br>
                 <input type="radio" name="idPlazos" id="plazos60" value="60">
-                    <label for="plazos60">60 meses</label><br>
+                    <label class="rdMS" for="plazos60">60 meses</label><br>
             <br>
             <button type="reset" class="boton" id="btnLimpiar">Limpiar</button><br><br>
             <button type="submit" class="boton" id="btnCalcular">Calcular</button><br><br>
             <label for=""></label>
             <center>
-                <label for="">Pago Inicial</label><br>
-                    <input type="text" id="PagoInicial" disabled><br>
-                <label for="">Total a Financiar:</label><br>
-                    <input type="text" id="totalFinanciar" disabled><br>
-                <label for="">Pago Mensual:</label><br>
-                    <input type="text" id="pagoMensual" disabled>
+                <label class="lblRes" for="">Pago Inicial</label><br>
+                    <input class="txtRes" type="text" id="PagoInicial" disabled><br>
+                <label class="lblRes" for="">Total a Financiar:</label><br>
+                    <input class="txtRes" type="text" id="totalFinanciar" disabled><br>
+                <label class="lblRes" for="">Pago Mensual:</label><br>
+                    <input class="txtRes" type="text" id="pagoMensual" disabled>
             </center>
         </section>
     </body>
