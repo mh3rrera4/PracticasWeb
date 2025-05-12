@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pre-Examen 3P</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/cotizacion.css">
+    <link rel="stylesheet" href="/css/tabla.css">
 </head>
 <body>
-    
+    <center>
+        <div class="hdrCot">
+                <header>
+                    <p class="cotTitulo">Tablas de Multiplicar</p>
+                </header>
+        </div>
+        <section>
+            <label for="" class="">Selecciona un número (1-10)</label>
+            <select id="cmbNumero" class="cmb">
+                        <option value="0">Selecciona un número</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+            </select>
+            <button id="btnCalcular" >Calcular</button>
+            <button id="btnLimpiar">Limpiar</button>
+            <table id="tablaMultiplicar">
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>*</th>
+                        <th>=</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaBody">
+                    <!--Se genera de manera continua -->
+                </tbody>
+            </table>
+        </section>
+    </center>
 </body>
+<script src="/JS/preExm3.js"></script>
 </html>
