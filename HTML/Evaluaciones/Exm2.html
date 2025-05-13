@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen 2do Parcial</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/tabla.css">
+    <link rel="stylesheet" href="/css/cotizacion.css">
+</head>
+<body>
+    <div class="hdrCot">
+        <header>
+            <p class="cotTitulo">Calificaciones de Alumnos</p>
+        </header>
+    </div>
+    <div class="ctm">
+        <a href="/index.html" class="btnInicio">Inicio</a>  
+    </div><br>
+    <section class="ctm">
+        <label for="">Nombre:</label> <input type="text" id="txtNombre">
+        <label for="">Inglés:</label> <input type="number" id="txtIngles">
+        <label for="">Español:</label> <input type="number" id="txtEsp">
+        <label for="">Matematicas:</label> <input type="number" id="txtMatematicas">
+        <button id="btnAgregar">Agregar</button>
+        <table id="tablaHeader">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Inglés</th>
+                    <th>Español</th>
+                    <th>Matematicas</th>
+                    <th>Promedio</th>
+                </tr>
+            </thead>
+            <tbody id="tablaBody">
+                <!--Se genera de manera continua -->
+            </tbody>
+        </table>
+    </section>
+</body>
+<script src="/JS/exm2P.js"></script>
+</html>
