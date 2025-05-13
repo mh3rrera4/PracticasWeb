@@ -2,7 +2,7 @@ const txtNombre = document.getElementById("txtNombre");
 const txtAncho = document.getElementById("txtAncho");
 const txtLargo = document.getElementById("txtLargo");
 const btnCalcular = document.getElementById("btnCalcular");
- const tablaBody = document.getElementById("tablaBody");
+const tablaBody = document.getElementById("tablaBody");
 
 function calcular(){
     const nombre = txtNombre.value;
@@ -11,6 +11,11 @@ function calcular(){
 
     const perimetro = 2 * (ancho + largo);
     const area = ancho * largo;
+
+    if(nombre == "" || isNaN(ancho) || isNaN(largo)){
+        alert("Por favor, completa todos los campos correctamente.");
+        return;
+    }
     
     const nuevaFila = document.createElement("tr");
     const celdaNombre = document.createElement("td");
