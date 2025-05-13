@@ -14,3 +14,30 @@ thead{
 tfoot{  /*En caso de ocuparlo*/
     background-color: #eee;
 }
+.paIzquierda{
+    text-align: left;
+    margin-left: 10%;
+    align-items: start;
+}   
+.tabla-contenedor {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Estilos para la tabla */
+.tabla-izquierda {
+    width: auto;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-izquierda th, .tabla-izquierda td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-izquierda th {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen 2do Parcial</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/tabla.css">
+    <link rel="stylesheet" href="/css/cotizacion.css">
+</head>
+<body>
+    <div class="hdrCot">
+        <header>
+            <p class="cotTitulo">Calificaciones de Alumnos</p>
+        </header>
+    </div>
+    <div class="ctm">
+        <a href="/index.html" class="btnInicio">Inicio</a>
+    </div><br>
+    </div>
+    <div class="ctm">
+        <a href="/HTML/Evaluaciones/Exm2.html" class="btnInicio">1ra Parte</a>
+    </div><br>
+    <section class="ctm">
+        <div class="paIzquierda">
+            <label for="">Nombre del Terreno:</label><br><input type="text" id="txtNombre"><br>
+            <label for="">Ancho (m):</label><br> <input type="number" id="txtAncho"><br>
+            <label for="">Largo(m):</label><br><input type="number" id="txtLargo">
+            <button id="btnCalcular">Calcular y Registrar</button>
+        </div>
+            <table id="tablaHeader">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Ancho(m)</th>
+                        <th>Largo(m)</th>
+                        <th>Perimetro(m)</th>
+                        <th>Area(m2)</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaBody">
+                    <!--Se genera de manera continua -->
+                </tbody>
+            </table>
+    </section>
+</body>
+<script src="/JS/exm2Pp2.js"></script>
+</html>
