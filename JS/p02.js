@@ -21,7 +21,7 @@ function cambiarOperador(){
 operaciones.addEventListener('change',cambiarOperador)
 
 function realizarOperacion(){
-    let x = Number(txtNum1.ariaValueNow);
+    let x = Number(txtNum1.value);
     let y = Number(txtNum2.value);
     let res = 0;
 
@@ -41,7 +41,6 @@ function realizarOperacion(){
     }
     resultado.textContent = res;
     operaciones.addEventListener('change',cambiarOperador)
-    btnCalcular.addEventListener('click',realizarOperacion)
 }
 
-    
+btnCalcular.addEventListener('click',realizarOperacion)
