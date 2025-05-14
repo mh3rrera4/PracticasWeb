@@ -25,7 +25,7 @@ function mayusculas(){
     parrafo.textContent = parrafo.textContent.toUpperCase();
 }
 function minusculas(){
-    btnMin.textContent = btnMin.textContent.toLowerCase();
+    parrafo.textContent = parrafo.textContent.toLowerCase();
 }
 function agregar(){
     let txt = document.getElementById('texto').value;
