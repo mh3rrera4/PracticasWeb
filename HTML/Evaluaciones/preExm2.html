@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pre-Examen 2P</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/cotizacion.css">
+    <link rel="stylesheet" href="/css/Evaluaciones/preExm2P.css">
 </head>
 <body>
-    
+    <div class="hdrCot">
+        <header>
+            <p class="cotTitulo">Calculo de Ganancia</p>
+        </header>
+    </div>
+    <div class="ctm">
+        <a href="/index.html" class="btnInicio">Inicio</a><br><br>
+    </div>
+    <section>
+        <center>
+            <br>
+            <label for="" class="lblMS">Numero del Producto</label><br> <input class="txtMS" type="text" id="txtNumeroProd" placeholder="12345"><br>
+            <label for="" class="lblMS">Nombre del Producto</label><br> <input class="txtMS" type="text" id="txtNombreProd"><br>
+            <label for="" class="lblMS">Precio Venta</label><br><input type="text" class="txtMS" id="txtPrecioVenta" placeholder="000.00"><br>
+            <label for="" class="lblMS">Precio Compra</label><br><input type="text" class="txtMS" id="txtPrecioCompra" placeholder="000.00"><br>
+            <label for="" class="lblMS">Cantidad de Producto</label><br><input type="text" class="txtMS" id="txtCantidad" placeholder="000.00"><br>
+            <label for="" class="lblMS">Unidad de Medida</label><br>
+            <select class="txtMS" id="txtUnidadMedida">
+                <option value="Pieza">Pieza</option>
+                <option value="Litros">Litro</option>
+                <option value="Kilogramos">Kilo</option>
+            </select><br>
+            <button id="btnCalcular" class="btnGanancia">Calcular ganancia</button>
+            <hr><br>
+            <label for="" class="lblMS">Total Compra</label><br><input type="text" class="txtMS" id="txtTotalCompra" placeholder="000.00" disabled><br>
+            <label for="" class="lblMS">Total Venta</label><br><input type="text" class="txtMS" id="txtTotalVenta" placeholder="000.00" disabled><br>
+            <label for="" class="lblMS">Ganancia Total</label><br><input type="text" class="txtMS" id="txtGanancia" placeholder="000.00" disabled><br><br><br><br>
+        </center>
+    </section>
 </body>
+<script src="/JS/preExm2.js"></script>
 </html>

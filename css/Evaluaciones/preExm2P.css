@@ -1,0 +1,18 @@
+.txtMS{
+    padding: 5px;
+    font-size: 25px;
+    width: 60%;
+    margin-bottom: 30px;
+}
+.lblMS{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;   
+}
+.btnGanancia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 60%;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 16px 0px;
+    border: 1px solid #000;
+}
