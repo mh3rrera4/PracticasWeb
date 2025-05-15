@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnos</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/tabla.css">
+</head>
+<body>
+    <header>
+        <center>
+            <h2 class="titulo">Lista de Alumnos</h2>
+        </center>
+    </header>
+    <section>
+        <center>
+            <label class="lblMS" for="">Matricula</label>
+            <input class="txtMS" type="text" id="txtMatricula">
+            <button id="btnBuscar">Buscar</button>
+            <label class="lblMS" for="">Nombre</label>
+            <input type="text" id="txtNombre">
+            <label class="lblMS" for="">Domicilio</label>
+            <input type="text" id="txtDomicilio">
+            <label class="lblMS" for="">Especialidad</label>
+            <select id="especialidad">
+                <option value="1">Ing. Software</option>
+                <option value="2">Lic. Terapia Física</option>
+                <option value="3">Lic. Turismo</option>
+                <option value="4">Ing. Electrico</option>
+            </select>
+            <label class="lblMS" for="">Sexo</label>
+            <select id="sexo">
+                <option value="1">Masculino</option>
+                <option value="2">Femenino</option>
+                <option value="3">No definido</option>
+            </select>
+            <br><hr>
+            <button id="btnAgregar">Agregar</button>
+            <button id="btnListar">Listar</button>
+        </center>
+    </section>
+    <section>
+        <table id="tabla">
+                <thead>
+                    <tr>
+                        <th>Matricula</th>
+                        <th>Nombre</th>
+                        <th>Domicilio</th>
+                        <th>Especialidad</th>
+                        <th>Sexo</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaBody">
+                    <!--Se genera de manera continua -->
+                </tbody>
+            </table>
+    </section>
+</body>
+<script src="/JS/alumnos.js"></script>
+</html>
